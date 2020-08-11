@@ -163,7 +163,6 @@ gulp.task('otf2ttf', function () {
 })
 
 function fontsStyle(params) {
-
     let file_content = fs.readFileSync(source_folder + '/scss/fonts.scss');
     if (file_content == '') {
         fs.writeFile(source_folder + '/scss/fonts.scss', '', cb);
@@ -182,6 +181,7 @@ function fontsStyle(params) {
         })
     }
 }
+
 function cb() {
 
 }
