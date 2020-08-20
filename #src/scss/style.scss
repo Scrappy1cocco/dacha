@@ -5,13 +5,6 @@
 @import "blocks/header";
 
 
-.bomb {
-    width: 50px;
-    height: 50px;
-    background-color: green;
-    @include rotate(45);
-}
-
 //<ОСНОВНАЯ СЕТКА>===========================================================================================================
 .container {
 	max-width: $mw + px;
@@ -39,3 +32,34 @@
 	}
 }
 //</ОБОЛОЧКА>===========================================================================================================
+
+.header {
+}
+.container {
+}
+.header__top {
+}
+.header__logo.logo {
+}
+.header__need {
+}
+.header__stock.stock {
+}
+.stock__core {
+}
+.stock__attantion {
+}
+.header__advantages.advantages {
+}
+.advantages__list {
+}
+.advantages__list-item {
+}
+.advantages__item-num {
+}
+.advantages__item-text {
+}
+.advantages__form.form {
+}
+.advantages__button.button {
+}
